@@ -52,7 +52,11 @@ const SkillsGrid = () => {
         <Typography
           sx={{
             fontWeight: 500,
-            fontSize: "33px",
+            fontSize: {
+              xs: "20px", // small screen (mobile)
+              sm: "26px", // small to medium screen
+              md: "33px", // medium and up (default)
+            },
             letterSpacing: "2%",
             fontFamily: "Preahvihear",
             color: "#FFFFFF",
